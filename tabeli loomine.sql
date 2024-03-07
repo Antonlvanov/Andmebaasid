@@ -37,7 +37,7 @@ CREATE TABLE retsept(
     sisestatud_kp date,
     kasutaja_id int,
     kategooria_id int,
-    FOREIGN KEY (kasutaja_id) REFERENCES kasutaja(kasutaja_id),
+    FOREIGN KEY (kasutaja_id) REFERENCES kasutaja(kesutaja_id),
     FOREIGN KEY (kategooria_id) REFERENCES kategooria(kategooria_id));
 
 CREATE TABLE tehtud(
